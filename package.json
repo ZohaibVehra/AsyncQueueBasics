@@ -1,0 +1,32 @@
+{
+  "name": "asyncqueuebasics",
+  "version": "1.0.0",
+  "description": "Requirements Redis BullMQ npm install bullmq ioredis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZohaibVehra/AsyncQueueBasics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ZohaibVehra/AsyncQueueBasics/issues"
+  },
+  "homepage": "https://github.com/ZohaibVehra/AsyncQueueBasics#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "bullmq": "^5.70.4",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  }
+}
